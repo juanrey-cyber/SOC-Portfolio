@@ -125,7 +125,7 @@ You're building professional, real evidence for your portfolio.
 
 🟦 8. Next Steps / Próximos Pasos
 
-✔ Add big.log
+
 ✔ Add ioc.log
 ✔ Add lateral.log
 ✔ Write Investigation #6 (Lateral Movement)
