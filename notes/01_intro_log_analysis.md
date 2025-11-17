@@ -21,6 +21,7 @@ Todos los logs fueron analizados usando herramientas de línea de comando en Lin
 ✔ Creating/organizing SOC evidence folders
 ✔ Writing structured SOC findings
 ✔ Git/GitHub repository management
+
 🟩 3. Logs Analysed / Logs Analizados
 servidor.log
 
