@@ -135,6 +135,5 @@ This page demonstrates real, practical, hands-on knowledge.
 Not theory. Not copy/paste.
 Actual SOC analysis.
 
-Recruiters LOVE this.
 
 🟧 10. End of Notes / Fin de Notas
