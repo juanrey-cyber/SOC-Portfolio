@@ -1,4 +1,20 @@
 ⭐ README.md — Juan Rey | SOC Analyst (Entry-Level) | USA (Remote)
+<p align="left">
+  <!-- Tech / Skills -->
+  <img src="https://img.shields.io/badge/Linux-Command%20Line-informational?style=flat&logo=linux&logoColor=white&color=FCC624" alt="Linux">
+  <img src="https://img.shields.io/badge/Blue%20Team-SOC%20Analyst-informational?style=flat&logo=shield&logoColor=white&color=0F766E" alt="Blue Team">
+  <img src="https://img.shields.io/badge/Log%20Analysis-Security-informational?style=flat&logo=gnu-bash&logoColor=white&color=0EA5E9" alt="Log Analysis">
+  <img src="https://img.shields.io/badge/SIEM-Fundamentals-informational?style=flat&logo=splunk&logoColor=white&color=22C55E" alt="SIEM Fundamentals">
+  <img src="https://img.shields.io/badge/Threat%20Detection-Entry%20Level-informational?style=flat&logo=datadog&logoColor=white&color=F97316" alt="Threat Detection">
+  
+  <!-- Learning Platforms -->
+  <img src="https://img.shields.io/badge/TryHackMe-Active%20Learner-informational?style=flat&logo=tryhackme&logoColor=white&color=CC0000" alt="TryHackMe">
+  <img src="https://img.shields.io/badge/Coursera-Cybersecurity-informational?style=flat&logo=coursera&logoColor=white&color=2563EB" alt="Coursera">
+  
+  <!-- Work Style -->
+  <img src="https://img.shields.io/badge/Location-USA%20(Remote)-informational?style=flat&logo=homeassistant&logoColor=white&color=6366F1" alt="USA Remote">
+  <img src="https://img.shields.io/badge/Bilingual-EN%20%7C%20ES-informational?style=flat&logo=google-translate&logoColor=white&color=E11D48" alt="Bilingual">
+</p>
 
 (BILINGUAL — EN/ES)
 
