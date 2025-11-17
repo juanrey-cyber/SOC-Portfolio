@@ -124,6 +124,7 @@ You know how to classify suspicious IP sources.
 You're building professional, real evidence for your portfolio.
 
 🟦 8. Next Steps / Próximos Pasos
+
 ✔ Add big.log
 ✔ Add ioc.log
 ✔ Add lateral.log
