@@ -1,126 +1,126 @@
-🛡️ SOC Analyst Portfolio – Juan Rey
+<p align="left">
+    <img src="https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=white" />
+    <img src="https://img.shields.io/badge/Bash_Scripting-111111?style=for-the-badge&logo=gnubash&logoColor=white" />
+    <img src="https://img.shields.io/badge/Log_Analysis-111111?style=for-the-badge&logo=kibana&logoColor=white" />
+    <img src="https://img.shields.io/badge/Threat_Detection-111111?style=for-the-badge&logo=target&logoColor=white" />
+    <img src="https://img.shields.io/badge/Splunk-111111?style=for-the-badge&logo=splunk&logoColor=white" />
+    <img src="https://img.shields.io/badge/SIEM_Logic-111111?style=for-the-badge&logo=protocols&logoColor=white" /> 
+    <img src="https://img.shields.io/badge/Cybersecurity-111111?style=for-the-badge&logo=protonvpn&logoColor=white" />
+</p>
 
-(Bilingual: English / Español)
+# 🛡️ SOC Analyst Portfolio — Juan Rey  
+**Bilingual (English / Español)**  
+Hands-on investigations • Log analysis • Threat detection • Linux • SIEM logic • Attack reconstruction  
 
-👨‍💻 About Me (EN)
+---
 
-I am an entry-level cybersecurity analyst specializing in log analysis, threat detection, Linux investigation, SIEM logic, and multi-source correlation.
-My goal is to obtain my first SOC Analyst role while demonstrating real, practical experience.
+# 📌 Table of Contents
+1. [About Me (EN)](#about-me-en)  
+2. [Sobre mí (ES)](#sobre-mí-es)  
+3. [Repository Structure](#repository-structure)  
+4. [SOC Investigations](#soc-investigations)  
+5. [Skills Demonstrated](#skills-demonstrated)  
+6. [Training & Certifications](#training--certifications)  
+7. [Why Hire Me?](#why-hire-me)  
+8. [Contacto / Contact](#contact)
 
-Everything in this repository is hands-on work, created manually using real commands, realistic logs, and structured SOC methodologies.
+---
 
-I learn fast, communicate clearly, and produce clean, professional reports.
+## ⚡ About Me (EN)
 
-👨‍💻 Sobre mí (ES)
+I am an entry-level cybersecurity analyst specializing in **log analysis, threat detection, Linux investigations, SIEM logic, and multi-source correlation**.
 
-Soy un analista de ciberseguridad en formación, enfocado en análisis de logs, detección de amenazas, investigación en Linux, lógica de SIEM y correlación de fuentes múltiples.
+My goal is to obtain my **first SOC Analyst role** while demonstrating real, hands-on experience.
 
-Mi objetivo es obtener mi primer trabajo como SOC Analyst, demostrando habilidades prácticas reales.
-Todo el trabajo en este repositorio es práctico, hecho a mano usando comandos reales, logs y metodologías SOC profesionales.
+Everything in this repository is created **manually**, using real logs, Linux commands, structured investigations, and professional SOC methodologies.
 
-Aprendo rápido, comunico con claridad y produzco reportes técnicos profesionales.
+I learn fast, communicate clearly, and produce **clean, accurate, professional analysis**.
 
-📁 Repository Structure | Estructura del Repositorio
-SOC-Portfolio/
-│
-├── reports/           # Investigation reports (MD/PDF)
-├── logs/              # Raw logs used for analysis
-├── playbooks/         # Detection & incident response workflows
-├── fundamentals/      # Notes, commands, tools, Linux basics
-└── README.md          # You are here :)
+---
 
-🧪 SOC Investigations | Investigaciones SOC
-🔎 SOC Investigation #1 — SSH Brute Force Attack
+## ⚡ Sobre mí (ES)
 
-📄 Report:
-👉 01_ssh_bruteforce_investigation.md
+Soy un analista de ciberseguridad en formación, especializado en **análisis de logs, detección de amenazas, investigación en Linux, lógica SIEM y correlación de múltiples fuentes**.
 
-Skills demonstrated:
+Mi objetivo es obtener mi primer trabajo como SOC Analyst, demostrando **experiencia práctica real**.
 
-Linux log analysis
+Todo en este repositorio está creado a mano: comandos, reconstrucciones de ataques, detecciones y reportes técnicos profesionales.
 
-Brute-force pattern detection
+Aprendo rápido, comunico con claridad y produzco análisis confiables.
 
-IP reputation analysis
+---
 
-Recognizing distributed attack behavior
+# 📁 Repository Structure
 
-Timeline construction
 
-SOC-style reporting
+---
 
-English/Spanish technical communication
+# 🕵️ SOC Investigations  
+(Hands-on, real commands, structured methodology)
 
-🧠 Skills Demonstrated (EN)
+| Case | Description | Files |
+|------|-------------|--------|
+| **01 — SSH Brute Force Attack** | Detection + reconstruction of distributed SSH brute force activity. | [`reports/_01_ssh_bruteforce_investigation.md`](reports/_01_ssh_bruteforce_investigation.md) |
+| **02 — Slow & Low Pattern** *(coming next)* | Long-duration, low-frequency anomaly pattern detection. | Soon |
 
-Log analysis (Linux authentication logs)
+🟣 **Cada vez que hagamos una nueva investigación, la agregaré aquí automáticamente.**
 
-grep, cut, sort, uniq, wc, regex
+---
 
-IP classification (internal vs external)
+# 🧠 Skills Demonstrated
 
-Brute-force attack detection
+### 🔹 Log Analysis  
+- grep, cut, sort, uniq, wc, regex  
+- Parsing multiline logs  
+- Internal & external IP identification  
+- Timeline reconstruction  
 
-Bot activity recognition
+### 🔹 Threat & Attack Detection  
+- Brute-force detection  
+- Bot activity identification  
+- Lateral movement indicators  
+- “Slow & Low” anomaly detection  
+- Multi-source correlation (auth + network + IOCs)  
 
-Lateral movement indicators
+### 🔹 SOC Reporting  
+- SOC-style professional PDF reports  
+- Summary / Findings / Recommendations  
+- Investigation narratives  
 
-Threat pattern analysis
+### 🔹 SIEM & Tools  
+- Splunk fundamentals  
+- Sentinel logic  
+- Linux investigation  
+- Bash scripting basics  
 
-Timeline reconstruction
+---
 
-SOC-style report writing
+# 🎓 Training & Certifications
 
-Documentation in English & Spanish
+- **Google Cybersecurity Certificate**  
+- **TryHackMe:** Linux Fundamentals, SOC Level 1, Threat Detection paths  
+- **SIEM Fundamentals** (Splunk + Sentinel logic)  
+- Detection engineering basics  
+- Windows event analysis *(coming soon)*  
 
-🧠 Habilidades Demostradas (ES)
+---
 
-Análisis de logs Linux
+# ⭐ Why Hire Me?
 
-grep, cut, sort, uniq, wc, regex
-
-Identificación de IP internas/externas
-
-Detección de ataques de fuerza bruta
-
-Reconocimiento de actividad de bots
-
-Indicadores de movimiento lateral
-
-Reconstrucción de línea de tiempo
-
-Creación de reportes SOC profesionales
-
-Documentación bilingüe EN/ES
-
-🎓 Training & Learning Path | Formación
-
-Google Cybersecurity Certificate
-
-TryHackMe: Linux Fundamentals, SOC Level 1, Threat Detection
-
-SIEM fundamentals (Splunk/Sentinel logic)
-
-Detection engineering basics
-
-Windows event analysis
-
-⭐ Why Hire Me? | Por qué contratarme
-EN
-
-Because I already demonstrate real SOC skills, I learn fast, and I communicate clearly.
+### EN  
+Because I already demonstrate real SOC skills, I learn fast, and I communicate clearly.  
 I produce accurate, clean, reliable analysis, and I adapt quickly to new tools and environments.
 
-ES
-
-Porque ya demuestro habilidades reales de un SOC Analyst Junior.
-Aprendo rápido, comunico con claridad y produzco análisis precisos y confiables.
+### ES  
+Porque ya demuestro habilidades reales de un SOC Analyst Junior.  
+Aprendo rápido, comunico con claridad y produzco análisis precisos y confiables.  
 Soy disciplinado, enfocado y comprometido.
 
-📬 Contact
+---
 
-Juan Rey
-📩 Contact  
-Email: coming soon  
-LinkedIn: coming soon
+# 📬 Contact
+
+**Juan Rey**  
+(Email profesional pendiente)  
+(LinkedIn pendiente)  
 
