@@ -36,7 +36,7 @@ Hands-on investigations • Log analysis • Threat detection • Linux • SIEM
 
 I am an entry-level cybersecurity analyst specializing in **log analysis, threat detection, Linux investigations, SIEM logic, and multi-source correlation**.
 
-My goal is to obtain my **first SOC Analyst role** while demonstrating real, hands-on experience.
+My goal is to obtain my **next SOC Analyst role** while demonstrating real, hands-on experience.
 
 Everything in this repository is created **manually**, using real logs, Linux commands, structured investigations, and professional SOC methodologies.
 
@@ -69,7 +69,6 @@ Aprendo rápido, comunico con claridad y produzco análisis confiables.
 | **01 — SSH Brute Force Attack** | Detection + reconstruction of distributed SSH brute force activity. | [`reports/_01_ssh_bruteforce_investigation.md`](reports/_01_ssh_bruteforce_investigation.md) |
 | **02 — Slow & Low Pattern** *(coming next)* | Long-duration, low-frequency anomaly pattern detection. | Soon |
 
-🟣 **Cada vez que hagamos una nueva investigación, la agregaré aquí automáticamente.**
 
 ---
 
