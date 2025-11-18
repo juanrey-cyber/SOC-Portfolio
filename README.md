@@ -120,8 +120,6 @@ Soy disciplinado, enfocado y comprometido.
 
 # 📬 Contact
 
-# 📬 Contact
-
 **Juan Rey – SOC Analyst (Entry-level)**  
 📧 Email: **juanreycyber@gmail.com**  
 🔗 LinkedIn: *(coming soon)*  
