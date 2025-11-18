@@ -1,12 +1,18 @@
-<p align="left">
-    <img src="https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=white" />
-    <img src="https://img.shields.io/badge/Bash_Scripting-111111?style=for-the-badge&logo=gnubash&logoColor=white" />
-    <img src="https://img.shields.io/badge/Log_Analysis-111111?style=for-the-badge&logo=kibana&logoColor=white" />
-    <img src="https://img.shields.io/badge/Threat_Detection-111111?style=for-the-badge&logo=target&logoColor=white" />
-    <img src="https://img.shields.io/badge/Splunk-111111?style=for-the-badge&logo=splunk&logoColor=white" />
-    <img src="https://img.shields.io/badge/SIEM_Logic-111111?style=for-the-badge&logo=protocols&logoColor=white" /> 
-    <img src="https://img.shields.io/badge/Cybersecurity-111111?style=for-the-badge&logo=protonvpn&logoColor=white" />
-</p>
+<div align="center">
+
+  <!-- Row 1 -->
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Bash_Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash Scripting" />
+  <img src="https://img.shields.io/badge/Log_Analysis-1F2933?style=for-the-badge&logo=graylog&logoColor=white" alt="Log Analysis" />
+  <img src="https://img.shields.io/badge/Threat_Detection-8B5CF6?style=for-the-badge&logo=virustotal&logoColor=white" alt="Threat Detection" />
+
+  <!-- Row 2 -->
+  <img src="https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=00E572" alt="Splunk" />
+  <img src="https://img.shields.io/badge/SIEM_Logic-0F766E?style=for-the-badge&logo=securityscorecard&logoColor=white" alt="SIEM Logic" />
+  <img src="https://img.shields.io/badge/Cybersecurity-111827?style=for-the-badge&logo=protonvpn&logoColor=32E676" alt="Cybersecurity" />
+  <img src="https://img.shields.io/badge/Incident_Response-E11D48?style=for-the-badge&logo=datadog&logoColor=white" alt="Incident Response" />
+
+</div>
 
 # 🛡️ SOC Analyst Portfolio — Juan Rey  
 **Bilingual (English / Español)**  
