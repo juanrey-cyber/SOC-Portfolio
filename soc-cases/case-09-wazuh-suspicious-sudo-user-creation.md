@@ -1,31 +1,51 @@
-# SOC Case 09 — Wazuh: Suspicious sudo usage + new user creation (persistence)
+# SOC Case 09 — Wazuh: Suspicious sudo usage + new user creation
 
 ## Overview
-We simulated a post-compromise scenario where an attacker uses `sudo` to create a new local user and grant elevated privileges.  
-Goal: validate Wazuh alerting, confirm evidence in logs, assess impact, and recommend remediation.
+This case simulates a post-compromise scenario: an actor creates a new local user and grants admin privileges using sudo.  
+Goal: validate Wazuh alerting, confirm evidence in logs, assess risk, and recommend remediation.
 
 ## Environment
 - OS: Ubuntu lab
-- Telemetry: auth logs (sudo/useradd/group changes)
-- Detection: Wazuh alerts (agent → manager → dashboard)
+- Telemetry: authentication logs (sudo, user creation, group changes)
+- Detection: Wazuh alerts
 
-## What happened (initial)
-A local account executed privileged commands that:
-1) created a new user
-2) added the user to an admin group (sudo)
-This is consistent with persistence / privilege escalation after initial access.
+## Reproduction Steps
+1) Create a new user: `sudo useradd -m tempadmin`
+2) Set password: `sudo passwd tempadmin`
+3) Grant sudo: `sudo usermod -aG sudo tempadmin`
+4) Verify: `id tempadmin`, `groups tempadmin`
+5) Cleanup: `sudo deluser --remove-home tempadmin`
 
-## Evidence Handling (Portfolio Note)
-Evidence for this case is captured using:
-- Wazuh alert screenshot(s) (recommended)
-- Minimal log excerpts (optional)
-If screenshots are not available, reproduction steps and expected evidence are documented.
+## Alerts Observed (Wazuh)
+- Alert name:
+- Rule ID:
+- Agent/Host:
+- Timestamp:
+- Raw log snippet:
 
-## Next
-- Reproduction Steps
-- Wazuh Alerts Observed
-- Log Validation
-- MITRE ATT&CK Mapping
-- Severity/Confidence
-- Response & Recommendations
-- Lessons learned
+## Log Validation
+- Source log:
+- Evidence observed:
+
+## Assessment
+Creating a new privileged local user is high-risk behavior consistent with persistence and privilege escalation.  
+In production, this requires immediate investigation to confirm initial access vector and scope.
+
+## MITRE ATT&CK Mapping
+- T1136 Create Account
+- T1098 Account Manipulation
+- T1548 Abuse Elevation Control Mechanism (sudo)
+
+## Severity / Confidence
+- Severity:
+- Confidence:
+- Why:
+
+## Response & Recommendations
+- Immediate actions:
+- Hardening actions:
+- Monitoring actions:
+
+## Lessons Learned (Interview-ready)
+-
+
