@@ -1,51 +1,28 @@
-# SOC Case 09 — Wazuh: Suspicious sudo usage + new user creation
-
-## Overview
-This case simulates a post-compromise scenario: an actor creates a new local user and grants admin privileges using sudo.  
-Goal: validate Wazuh alerting, confirm evidence in logs, assess risk, and recommend remediation.
+# Case 09 – Ubuntu Privileged Activity & Docker Execution
 
 ## Environment
-- OS: Ubuntu lab
-- Telemetry: authentication logs (sudo, user creation, group changes)
-- Detection: Wazuh alerts
+- OS: Ubuntu 24.04.3 LTS
+- Hostname: Ubuntu-lab
+- User: analyst
+- Context: Local lab (VirtualBox)
 
-## Reproduction Steps
-1) Create a new user: `sudo useradd -m tempadmin`
-2) Set password: `sudo passwd tempadmin`
-3) Grant sudo: `sudo usermod -aG sudo tempadmin`
-4) Verify: `id tempadmin`, `groups tempadmin`
-5) Cleanup: `sudo deluser --remove-home tempadmin`
+## Observed Activity
+Evidence shows multiple privileged actions performed by user `analyst`:
 
-## Alerts Observed (Wazuh)
-- Alert name:
-- Rule ID:
-- Agent/Host:
-- Timestamp:
-- Raw log snippet:
+- sudo sessions opening root shells
+- Docker service start
+- Docker container execution (alpine)
+- cron jobs executed as root
 
-## Log Validation
-- Source log:
-- Evidence observed:
+## Evidence Source
+- /var/log/auth.log
+- Console output (local TTY)
 
-## Assessment
-Creating a new privileged local user is high-risk behavior consistent with persistence and privilege escalation.  
-In production, this requires immediate investigation to confirm initial access vector and scope.
+## Key Log Excerpts
+(See attached screenshots)
 
-## MITRE ATT&CK Mapping
-- T1136 Create Account
-- T1098 Account Manipulation
-- T1548 Abuse Elevation Control Mechanism (sudo)
-
-## Severity / Confidence
-- Severity:
-- Confidence:
-- Why:
-
-## Response & Recommendations
-- Immediate actions:
-- Hardening actions:
-- Monitoring actions:
-
-## Lessons Learned (Interview-ready)
--
+## Analyst Notes
+Disk reached 100% utilization due to log growth under /var/ossec,
+causing system instability. This reflects a realistic SOC scenario
+where improper log retention can lead to operational impact.
 
