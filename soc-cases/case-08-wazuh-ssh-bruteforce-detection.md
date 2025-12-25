@@ -179,6 +179,32 @@ Low (Lab / Simulated)
 
 ---
 
+## Evidence Handling (Portfolio Note)
+
+I did not save screenshots from the initial lab run.  
+To keep this case verifiable and repeatable, I documented **reproduction steps** and **expected evidence** below.
+
+### Reproduction Steps (High-level)
+1. Generate multiple failed SSH login attempts (invalid user / wrong password) against the Ubuntu SSH service.
+2. Validate SSH failures in the authentication logs (source-of-truth).
+3. Validate Fail2ban parsing decisions and jail status.
+4. Confirm whether the source IP is bannable (localhost is commonly ignored by default).
+
+### Expected Evidence (What you should observe)
+- **SSH authentication failures** in system logs (examples include):
+  - `Failed password`
+  - `Invalid user`
+- **Fail2ban jail loaded**:
+  - jail `sshd` enabled and monitoring SSH log events
+- **Important lab behavior**:
+  - If attempts originate from `127.0.0.1` (localhost), Fail2ban may show:
+    - `Ignore 127.0.0.1 by ignoreself rule`
+  - This is expected and prevents self-lockout in many configurations.
+
+### Interview-ready takeaway
+Detection is validated by **log evidence**, not only by “bans”.  
+In production (external source IP), bans are expected once `maxretry` is exceeded within `findtime`.
+
 ## Response & Recommendations
 
 Immediate actions (production scenario):
