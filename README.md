@@ -37,6 +37,7 @@ This repository is built to be **recruiter-friendly**: quick overview + direct a
 - **Notes / Learning:** `./notes/`
 - **Security+ track:** `./securityplus/`
 - **Archive:** `./archive/`
+- SOC Cases Index: Open soc-cases/
 
 ---
 
