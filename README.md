@@ -1,7 +1,7 @@
 # SOC Analyst Portfolio — Juan Rey
 
-Hands-on SOC portfolio focused on **detection, investigation, and documentation** using real logs, Linux, and SIEM workflows.  
-This repository is built to be **recruiter-friendly**: quick overview + direct access to case studies, reports, playbooks, and evidence.
+Hands-on SOC Analyst portfolio focused on real-world detection, triage, and incident investigation across Linux and Windows environments. 
+Emphasis on log analysis, alert validation, severity assessment, and decision-making aligned with SOC Tier 1 / MSSP operations.
 
 ---
 
@@ -21,7 +21,11 @@ This repository is built to be **recruiter-friendly**: quick overview + direct a
   - Validated SIEM alerts against raw logs (`auth.log`)
   - Confirmed no successful authentication / no compromise
   - Configured and tested Fail2ban behavior (lab simulation + local traffic handling)
-  - MITRE ATT&CK mapping + remediation guidance  
+  - MITRE ATT&CK mapping + remediation guidance
+  - Alert triage and validation (false positive vs true positive)
+  - Incident severity assessment and escalation decisions
+
+    
   ➜ Read: [Case 08](./soc-cases/case-08-wazuh-ssh-bruteforce-detection.md)
 
 > More cases are available in the folder below.
